@@ -6,11 +6,11 @@ package com.mycompany.csc325_oop_designreview_lab;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author Nick Gutierrez
  */
 public abstract class Human {
     private String name;
-	private String address;
+	protected String address; //protected so Student can access it
 	private short age;
 
 	// constructor that takes only two paras
